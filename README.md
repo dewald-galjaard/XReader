@@ -1,5 +1,7 @@
 # XReader
 
+> Code Assessment for Outsurance.
+
 ![](http://i.imgur.com/JYN76xl.png)
 
 #### Notes
@@ -30,4 +32,4 @@ The initial design had one more additional component (not in the final solution)
 
 Right now, all the different components are instantiated via the Console app (Runner), but in a production environment one should use a IoC container such as Windsor to help manage dependencies.
 
-For any question, please do not hesitate to contact me.
+> For any question, please do not hesitate to contact me.
