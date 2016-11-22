@@ -20,4 +20,7 @@ For a production environment the tests would not be sufficient.
 #### Folder structure
 Within the solution tests are placed inside a solution folder `_`. This is to keep them seperate and always at the top. On disk however, the projects can be found under `\qa`.
 
+#### Domain
+For this specific example I could identify only one domain entity from a DDD perspective `Record`. Record may hold information related to a persons, but in this context, users will only refer to it as a 'Record'.
+
 
