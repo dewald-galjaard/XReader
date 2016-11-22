@@ -13,11 +13,14 @@
   - Before you can run the solution, be sure to set your input/output paths in *progam.cs*. Also please make sure you have sufficient privileges (Admin) for the directory you will be writing to.
   
 ### About testing
-Tests were created using Intellitest available since Visual Studio 2015. Usually, I would create tests manually, but one can't write tests for scenarios and border cases you do not know exist -- therefore its more effective to rely on a tool such as PEX to help discover execution paths and determine various input data.
+Tests were created using Intellitest available since Visual Studio 2015. Usually, I would create tests manually, but one can't write tests for scenarios and border cases you do not know exist -- therefore its more effective to rely on a tool such as PEX to help discover execution paths and determine various input data which may cause your solution to break in production.
 
 I have provided sample tests (as created by Intellitest) for the IO component. File read/write tasks are usually troublesome, so I thought this would add value.
 
 For a production environment the tests would not be sufficient.
+
+### Logging
+Logging was not implemented. Exceptions can be thrown from within IO (the component that was tested), but in production one would probably want to handle those exception gracefully by logging them to a file in order to provide the user with a better experience.
 
 ### Folder structure
 Within the solution, tests are placed inside a Solution Folder `_`. This is to keep them separate and always at the top. On disk however, the tests projects can be found under `\qa`.
