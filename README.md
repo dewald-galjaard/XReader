@@ -6,7 +6,7 @@
 
 ### Notes
 
-  - Output/result files are available in the root folder (*out1.txt*, *out2.txt*).
+  - Output/result files are available in the root folder (*out1.csv*, *out2.csv*).
   - Unit tests were created but are not complete.
 
 ### Setup
