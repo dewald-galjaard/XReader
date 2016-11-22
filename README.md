@@ -31,7 +31,7 @@ In this domain I could identify only one domain entity (DDD) -- `Record`. `Recor
 ### Design
 From a design perspective, I aimed for a loosely coupled design which would abide by the SOLID principles. I introduced interfaces for all components, which will help with testing (especially mocking) and Inversion of Control. 
 
-The initial design had one more additional component (not in the final solution) for hosting the sorting algorithms. The reason for this was because such functionality could easily be hosted within micro-services where they would have the ability to scale independently. I eventually discarded the idea since from within this context it may seem like the solution was over-engineered. 
+The initial design had one more additional component (not in the final solution) for hosting the sorting algorithms. The reason for this was because such functionality could easily be hosted within micro-services where they would have the ability to scale independently. I eventually discarded the idea since for the purposes of this assessment it may have seemed over-engineered. 
 
 Right now, all the different components are instantiated via the Console app (Runner), but in a production environment one should use a IoC container such as Windsor to help manage dependencies.
 <br /><br/><br/>
