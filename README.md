@@ -6,7 +6,7 @@
 
 ### Notes
 
-  - Output/Result files are available in the root folder.
+  - Output/result files are available in the root folder (*out1.txt*, *out2.txt*).
   - Unit tests were created but are not complete.
 
 ### Setup
