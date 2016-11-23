@@ -1,6 +1,6 @@
 # XReader
 
-> A Code Assessment for Outsurance.
+> Code Assessment for Outsurance.
 
 ![](http://i.imgur.com/JYN76xl.png)
 
